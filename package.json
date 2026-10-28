@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && cd dist && git init && git config user.name 'shall' && git config user.email 'shall@makalahku.dev' && git add -A && git commit -m 'deploy: GitHub Pages' && git branch -M gh-pages && git remote add origin https://github.com/MyMrshll/restaurant-api-simulator.git && git push -u origin gh-pages --force && cd .. && rm -rf dist/.git"
   },
   "dependencies": {
     "lucide-react": "^1.62.0",

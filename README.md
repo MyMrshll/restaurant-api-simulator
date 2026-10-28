@@ -3,6 +3,8 @@
 > "Pesan Makanan, Pahami Cara Kerja API."  
 > Media pembelajaran interaktif untuk demonstrasi cara kerja REST API bagi mahasiswa baru HIMA TI CLUB 2026.
 
+🌐 **Live Demo Website:** [https://mymrshll.github.io/restaurant-api-simulator/](https://mymrshll.github.io/restaurant-api-simulator/)
+
 ## 🎯 Konsep Utama (Analogi Restoran)
 
 | Dunia Restoran | Konsep Teknis REST API |
